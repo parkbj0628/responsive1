@@ -36,7 +36,7 @@ header {
 
 section { padding: 80px 20px; }
 
-.con1 { width: 1240px; margin: auto; display: flex; gap: 2rem; border: 1px solid red; }
+.con1 { width: 1240px; margin: auto; display: flex; gap: 2rem; }
 .con1 article { height: 20rem; border-radius: 2rem; }
 .con1 article:first-child {
     flex: 2;
@@ -53,9 +53,10 @@ section { padding: 80px 20px; }
 .con2 .row img { width: 100%; }
 
 .con2 h4 { font-size: 2rem; margin-bottom: 1rem; }
-.con2 p { font-size: 1.6rem; color: #777; }
+.con2 .text p { font-size: 1.6rem; color: #777; }
 
 .con2 .list { display: flex; flex-wrap: wrap; row-gap: 2rem; margin-top: 2rem; }
+.con2 .list p { font-size: 1.7rem; color: #777; }
 .con2 .list > li { flex-basis: 33.33%; padding: 1rem; }
 
 
@@ -74,13 +75,14 @@ section { padding: 80px 20px; }
 .con4 .row .img { text-align: center; }
 .con4 .row .img img { width: 100%; }
 
-.con4 .text {  }
+.con4 {  }
 .con4 h3 {
+    text-align: center;
     font-size: 2.4rem;
     text-transform: uppercase;
     margin-bottom: 3rem;
 }
-.con4 .text p { font-size: 1.6rem; color: #999; }
+.con4 .text p { font-size: 1.8rem; color: #999; }
 
 
 .con5 { background: #ddd; }
